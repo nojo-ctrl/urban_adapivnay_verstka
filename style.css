@@ -1,0 +1,1061 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+html{
+  box-sizing: border-box;
+}
+*,
+*::after,
+*::before{
+  box-sizing: inherit;
+}
+body{
+  margin: 0px;
+ 
+}
+.container{
+  align-items: center;
+}
+.header{
+  margin-top: 50px;
+  margin-left: 251px;
+  width: 1599px;
+  align-items: center;
+  
+}
+.logo img{
+  margin: 0px;
+}
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.link{
+  width: 582px;
+  height: 57px;
+  
+}
+.list{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 65px;
+}
+.item{
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400px;
+  font-size: 18px;
+  
+}
+.item a{
+  text-decoration: none;
+  color: black;
+}
+.icon{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap:0 25px;
+}
+.loop{
+  margin-left: 122px;
+}
+.top{
+  background-image: url("/image/Rectangle75.png");
+  min-height: 620px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 65px -10px;
+}
+
+.top__iner h1{
+position: absolute;
+width: 789.51px;
+height: 120px;
+left: 199.88px;
+top: 580px;
+
+font-family: 'Cormorant';
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 100%;
+/* or 60px */
+
+/* White */
+color: #FFFFFF;
+
+
+}
+
+.top__iner p{
+  /* Wide selection of high-quality teas from all over the world, carefully curated by tea experts. */
+
+position: absolute;
+width: 557.65px;
+height: 58px;
+left: 199.88px;
+top: 724px;
+
+/* H3 Title 24px Light */
+font-family: 'Cormorant';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+color: #FFFFFF;
+} 
+.text{
+  min-width: 704px;
+  min-height: 96px;
+}
+.text p{
+  /* "Tea is not just a drink, it's a way of life and a way to connect with our loved ones." */
+
+position: absolute;
+width: 704px;
+height: 96px;
+left: 588px;
+top: 900px;
+
+/* Quotation 40px Italic Light */
+font-family: 'Cormorant';
+font-style: italic;
+font-weight: 300;
+font-size: 40px;
+line-height: 48px;
+text-align: center;
+
+/* Black */
+color: #151618;
+}
+.text_tea{
+  min-width: 369px;
+  min-height: 48px;
+}
+.text_tea p{
+  /* Explore our Collections */
+
+position: absolute;
+width: 369px;
+height: 48px;
+left: 755px;
+top: 1206px;
+
+/* H2 Title 40px */
+font-family: 'Cormorant';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+
+/* Black */
+color: #151618;
+
+}
+.tea_list{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 350px;
+}
+.tea{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tea p{
+  /* Black */
+
+width: 65px;
+height: 29px;
+
+/* H3 Title 24px Light */
+font-family: 'Cormorant';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+/* Black */
+color: #151618;
+
+}
+.hero{
+  min-width: 1600px;
+  min-height: 397px;
+  background-color: #F7F2EA;
+  position: relative;
+  top: 200px;
+}
+.hero h2{
+  /* What our Clients say */
+
+position: absolute;
+width: 329px;
+height: 48px;
+left: 751px;
+top: 56px;
+
+/* H2 Title 40px */
+font-family: 'Cormorant';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+
+/* Black */
+color: #151618;
+}
+.histori_tea_list{
+  display: flex;
+  gap: 26px;
+  align-items: center;
+  position: absolute;
+  left: 370px;
+  top: 200px;
+}
+.history{
+  /* Frame 112 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 280px;
+height: 169px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.tea_text{
+width: 280px;
+height: 132px;
+
+/* Quotation Small 16px Light Italic */
+font-family: 'Open Sans';
+font-style: italic;
+font-weight: 300;
+font-size: 16px;
+line-height: 22px;
+
+/* Black */
+color: #151618;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.Autor{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 27px;
+
+/* Black */
+color: #151618;
+
+position: absolute;
+top: 135px;
+}
+.Alice{
+  left: 1px;
+}
+.Mad{
+  top:75px;
+  left: 305px;
+}
+.Dor{
+  top: 95px;
+  left: 610px;
+}
+.Mar{
+  top: 110px;
+  left: 917px;
+}
+.text_tea2{
+  /* Our Tea Blog */
+
+position: absolute;
+width: 608px;
+height: 48px;
+left: 790px;
+top: 2348px;
+}
+.text_tea2 h1{
+font-family: 'Cormorant';
+font-style: normal;
+font-size: 40px;
+line-height: 48px;
+font-weight: 400;
+
+/* Black */
+color: #151618;
+
+
+}
+.tea_pikch{
+  margin-top: 400px;
+  display: flex;
+  min-width: 1142px;
+  margin-left: 300px;
+  gap: 120px;
+}
+.pich{
+  display: flex;
+  margin-bottom: 40px ;
+}
+.glav{
+  /* Tea Time Travels: Funny Moments from Around the World */
+margin-top: 0px;
+max-width: 252px;
+max-height: 86px;
+margin-left: 20px;
+margin-bottom: 10px;
+/* H3 Title 24px Light */
+font-family: 'Cormorant';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+
+/* Black */
+color: #151618;
+
+
+}
+
+.colum_text{
+  display: flex;
+  flex-direction: column;
+}
+.by{
+  margin-left: 20px;
+}
+.Read{
+  margin-top: 15px;
+  margin-left: 20px;
+  text-decoration: none;
+  color: #151618;
+  font-family: 'Open Sans';
+  font-size: 13px ;
+}
+
+.but{
+  width: 149px;
+  height: 51px;
+  border: 1px solid black;
+  position: absolute;
+  left: 840px;
+  top: 2950px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.but_text{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 27px;
+
+}
+.but:hover{
+  background-color: aliceblue;
+}
+
+.connect_2{
+  min-width: 1600px;
+  min-height: 418px;
+  background-color: #F7F2EA;
+}
+
+.Glav_text_form{
+  position: relative;
+  margin-top: 200px;
+}
+.glav_text{
+  /* Want to know more? */
+
+position: absolute;
+left: 12.5%;
+right: 67.12%;
+top: 23.92%;
+bottom: 64.59%;
+top:130px;
+
+/* H2 Title 40px */
+font-family: 'Cormorant';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+
+/* Black */
+color: #151618;
+
+
+}
+.text_form{
+  /* Join our mailing list and stay up-to-date with the latest news, promotions, and exclusive offers from our tea store. Be the first to know about new tea arrivals, seasonal blends, and special discounts. Don't miss out on the tea-rrific perks - sign up today! */
+
+position: absolute;
+left: 12.5%;
+right: 51.25%;
+top: 99.37%;
+bottom: 23.92%;
+top: 200px;
+
+/* Main Text 20px Light */
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 150%;
+/* or 30px */
+
+/* Black */
+color: #151618;
+
+
+}
+.inp{
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px ;
+  border-bottom: 1px solid #B8B58B;
+  background-color: #F7F2EA;
+  width: 500px;
+}
+.btn{
+  /* Frame 72 */
+
+/* Auto layout */
+padding: 12px 41px;
+
+/* White */
+background: #FFFFFF;
+/* Black */
+border: 1px solid #151618;
+
+}
+.chek_text{
+  /* We take your privacy seriously and are committed to protecting your personal information. By subscribing to our mailing list, you are consenting to receive periodic emails from us about our products, promotions, and other tea-related information. */
+
+margin-top: 20px;
+display: flex;
+/* Main Small Text 13px Light */
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 13px;
+line-height: 18px;
+
+/* Black */
+color: #151618;
+
+
+}
+.vvod{
+  position: absolute;
+  top: 3330px;
+  left: 1000px;
+}
+#chek{
+  position: absolute;
+  left: -30px;
+  top: 60px;
+  
+}
+
+.prior{
+  margin-left: 800px;
+  margin-top: 100px;
+}
+.prior_text{
+  /* We Prioritise */
+/* H2 Title 40px */
+font-family: 'Cormorant';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+
+/* Black */
+color: #151618;
+width: 400px;
+}
+.im{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 5px;
+}
+.info_text{
+
+/* Main Text Big 30px Light */
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 30px;
+line-height: 41px;
+margin-bottom: 0px;
+/* identical to box height */
+
+/* Black */
+color: #151618;
+
+
+}
+.info_text_2{
+/* Main Text 20px SemiBold */
+margin-top: 10px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 27px;
+
+/* Black */
+color: #151618;
+
+
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer{
+  margin: 0px;
+  display: flex;
+  padding-left: 50px;
+  margin-top: 200px;
+  background-color: #F7F2EA ;
+  height: 680px;
+}
+.glavli{
+  list-style: none;
+  /* Products */
+
+width: 84px;
+height: 29px;
+
+font-family: 'Cormorant';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+/* Black */
+color: #151618;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin-top: 200px;
+margin-bottom: 50px;
+
+}
+.li{
+  list-style: none;
+  /* Black tea */
+
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+/* Black */
+color: #151618;
+margin-top: 20px;
+}
+.foot_list{
+  margin-left: 213px;
+}
+.foot_text_1{
+  /* “Tea is a journey. It can take you to new places and open your mind to new experiences. Let every sip transport you to a world of wonder and possibility” */
+
+position: absolute;
+left: 51.25%;
+right: 31.94%;
+top: 30.19%;
+bottom: 51.26%;
+top: 4390px;
+
+font-family: 'Open Sans';
+font-style: italic;
+font-weight: 300;
+font-size: 16px;
+line-height: 22px;
+
+/* Black */
+color: #151618;
+
+
+}
+.foot_text_2{
+  /* Dragomir Teodorescu, Tealuxe owner */
+
+position: absolute;
+left: 51.25%;
+right: 40.69%;
+top: 52.11%;
+bottom: 42.5%;
+top: 4500px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 16px;
+
+/* Black */
+color: #151618;
+
+
+}
+.foot_contact_h{
+  /* Stay In Touch */
+
+position: absolute;
+top: 4300px;
+left: 1380px;
+font-family: 'Cormorant';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+/* Black */
+color: #151618;
+
+
+}
+.foot_contact_p{
+  /* Please feel free to contact us via the email of phone. We would be happy to hear from you! */
+
+position: absolute;
+top: 4400px;
+left: 1382px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 13px;
+line-height: 18px;
+
+/* Black */
+color: #151618;
+
+
+}
+.tea_img{
+  position: absolute;
+  left: 1370px;
+  top: 4460px;
+}
+.cont{
+  display: flex;
+  gap: 20px;
+  
+}
+.navs{
+  position: absolute;
+  left: 1450px;
+  top: 4459px;
+}
+.soc img{
+  margin-right: 15px;
+}
+.fot_footer{
+  display: flex;
+  position: absolute;
+  left: 300px;
+  top: 4750px;
+  align-items: center;
+}
+.fot_img img{
+width: 31px;
+height: 27px;
+}
+.fot_footer p{
+margin-right: 200px;
+}
+
+.ne_nine{
+  background-color: #ffffff;
+  width:1400px ;
+  height: 1660px;
+  position: absolute;
+  left: 200px;
+  top: 0;
+  display: none;
+  padding:0px 200px;
+  z-index: 99;
+}
+.ne_nine a{
+  text-decoration: none;
+  color: #000000;
+  margin-right: 100px;
+}
+.ne_nine a:hover{
+  color: #000000;
+  text-decoration: overline;
+}
+.ne_nine li{
+  list-style: none;
+  font-size: 68px;
+  margin-bottom: 75px;
+  margin-left: 400px;
+}
+.ne_nine li:hover{
+  list-style: none;
+  font-size: 68px;
+  margin-bottom: 75px;
+  margin-left: 550px;
+  color: #000;
+}
+.niva{
+  border-bottom: 4px solid #f2d7ab;
+  margin-top: 100px;
+}
+.niva_2{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 260px;
+}
+.niv_2{
+  font-size: 44px;
+  width: 800px;
+}
+.niv_dop {
+  white-space: nowrap;
+}
+.icon_2{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 0px;
+  position: absolute;
+  left: -308px;
+  top: 1500px;
+  
+  ;
+}
+.back{
+  background-color: #F7F2EA;
+    width: 1400px;
+    height: 200px;
+    margin-top: 110px;
+    margin-left: -200px;
+}
+.icon_2 img{
+  width: 60px;
+}
+@media  (min-width: 1200px ) {
+
+ .header{
+  padding-right: 100px;
+ }
+ .top{
+  min-width: 1900px;
+ }
+ .tea_list{
+  margin-left: 200px;
+  gap: 100px;
+ }
+ .hero{
+  min-width: 1900px;
+ }
+ .connect_2{
+  min-width: 1900px;
+ }
+ #chek{
+  top: 105px;
+ }
+ .btn{
+  margin-top: 20px;
+ }
+ .im{
+  margin-left: 300px;
+  gap: 90px;
+  width: 1400px;
+ }
+ .foot_contact_p{
+  width: 400px;
+ }
+ .foot_contact_h{
+  width: 400px;
+ }
+ .footer{
+  width: 1900px;
+ }
+ .foot_text_1{
+ left: 900px; 
+ width: 400px;
+ }
+ .foot_text_2{
+  left: 900px;
+  width: 400px;
+ }
+ .soc{
+  width: 400px;
+ }
+}
+
+@media  (min-width: 768px ) {
+  .burger-checkbox{
+    display: none;
+  }
+  .header{
+   padding-right: 400px;
+  }
+  .top{
+   min-width: 1900px;
+  }
+  .tea_list{
+   margin-left: 200px;
+   gap: 100px;
+   
+   
+  }
+  .hero{
+   min-width: 1900px;
+  }
+  .connect_2{
+   min-width: 1900px;
+  }
+  #chek{
+   top: 105px;
+  }
+  .btn{
+   margin-top: 20px;
+  }
+  .im{
+   margin-left: 300px;
+   gap: 90px;
+   width: 1400px;
+  }
+  .foot_contact_p{
+   width: 400px;
+  }
+  .foot_contact_h{
+   width: 400px;
+  }
+  .footer{
+   width: 1900px;
+  }
+  .foot_text_1{
+  left: 900px; 
+  width: 400px;
+  }
+  .foot_text_2{
+   left: 900px;
+   width: 400px;
+  }
+  .soc{
+   width: 400px;
+  }
+ }
+ @media  (max-width: 768px ) {
+
+  .header{
+   padding-right: 30px;
+  }
+  .top{
+   min-width: 1900px;
+  }
+  .tea_list{
+   margin-left: 85px;
+   gap: 40px;
+  }
+  .hero{
+   min-width: 1900px;
+  }
+  .connect_2{
+   min-width: 1900px;
+  }
+  #chek{
+   top: 105px;
+  }
+  .btn{
+   margin-top: 20px;
+  }
+  .im{
+   margin-left: 300px;
+   gap: 90px;
+   width: 1400px;
+  }
+  .foot_contact_p{
+   width: 400px;
+  }
+  .foot_contact_h{
+   width: 400px;
+  }
+  .footer{
+   width: 1900px;
+  }
+  .foot_text_1{
+  left: 900px; 
+  width: 200px;
+  top: 5120px;
+  }
+  .foot_text_2{
+   left: 900px;
+   width: 400px;
+   top: 5300px;
+  }
+  .soc{
+   width: 400px;
+  }
+  .link{
+    display: none;
+  }
+  .logo{
+    margin-right: 450px;
+  }
+  .logo img{
+    width: 200px;
+    margin-left: 465px;
+  }
+  .icon img{
+    width: 50px;
+  }
+  .tea img{
+width: 320px;
+  }
+  .tea p{
+    font-size: 60px;
+    margin-left: -66px;
+  }
+  .text_tea{
+    font-size: 65px ;
+  }
+  .top__iner p{
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .hero{
+    height: 800px;
+  }
+  .histori_tea_list{
+    gap: 80px ;
+  }
+ .Alice{
+  top: 500px;
+ }
+  .Mad{
+    top: 260px;
+    left: 360px;
+  }
+  .Dor{
+    top: 330px;
+    left: 720px; 
+  }
+  .Mar{
+    top: 380px;
+    left: 1078px;
+
+  }
+  .tea_text{
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .vvod{
+    top: 4050px;
+  }
+  .text p{
+    margin-top: 180px;
+  }
+  .but{
+    top: 3800px
+  }
+  .histori_tea_list{
+    left: 250px;
+  }
+  .foot_contact_h{
+    top: 5100px;
+  }
+  .foot_contact_p{
+    top: 5200px;
+  }
+  .tea_img {
+    top: 5260px;
+  }
+  .navs{
+    top: 5260px;
+  }
+  .fot_footer{
+    top: 5550px;
+  }
+  .burger-checkbox {
+    position: absolute;
+    visibility: hidden;
+  }
+  .burger {
+    cursor: pointer;
+    display: block;
+    position: relative;
+    border: none;
+    background: transparent;
+    width: 40px;
+    height: 26px;
+    margin: 30px auto;
+    z-index: 100;
+  }
+  .burger::before,
+  .burger::after {
+    content: '';
+    left: 0;
+    position: absolute;
+    display: block;
+    width: 176%;
+    height: 4px;
+    border-radius: 10px;
+    background: #000;
+  }
+  .burger::before {
+    top: 0;
+    box-shadow: 0 11px 0 #000;
+    transition: box-shadow .3s .15s, top .3s .15s, transform .3s;
+  }
+  .burger::after {
+    bottom: 0;
+    transition: bottom .3s .15s, transform .3s;
+  }
+  .burger-checkbox:checked + .burger::before {
+    top: 11px;
+    transform: rotate(45deg);
+    box-shadow: 0 6px 0 rgba(0,0,0,0);
+    transition: box-shadow .15s, top .3s, transform .3s .15s;
+  }
+  .burger-checkbox:checked + .burger::after {
+    bottom: 11px;
+    transform: rotate(-45deg);
+    transition: bottom .3s, transform .3s .15s;
+  }
+}
+
